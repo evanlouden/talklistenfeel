@@ -1,11 +1,24 @@
 #menu-bar-large {
   box-shadow: 3px 3px 5px #888888;
+  vertical-align: bottom;
 }
+
+#menu-bar-large li {
+  vertical-align: bottom;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#map {
+  width: 100%;
+}
+
 nav li a {
   font-weight: 400 !important;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
   text-shadow: none !important;
   color: white !important;
+  padding-bottom: 20px;
 }
 
 .mobile-links li {
@@ -16,10 +29,6 @@ nav li a {
 
 .small-spacer {
   height: 60px;
-}
-
-.footer-spacer {
-  height: 500px;
 }
 
 .swiper-container {
@@ -84,7 +93,7 @@ nav li a {
 
 .footer {
   background-color: #336699;
-  height: 100px;
+  height: 125px;
   padding: 15px;
   width: 100%;
   text-align: center;
