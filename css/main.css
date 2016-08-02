@@ -1,3 +1,6 @@
+#menu-bar-large {
+  box-shadow: 3px 3px 5px #888888;
+}
 nav li a {
   font-weight: 400 !important;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
@@ -5,11 +8,103 @@ nav li a {
   color: white !important;
 }
 
+.mobile-links li {
+  border-bottom: #ffffff;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
 .small-spacer {
   height: 60px;
 }
 
+.footer-spacer {
+  height: 500px;
+}
+
 .swiper-container {
-    width: 600px;
-    height: 300px;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+
+}
+
+.slide-content {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.slide-header {
+  font: 50px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.slide-subheader {
+  font-size: .9em;
+  font-weight: bold;
+}
+
+.slide-text {
+  font-size: .9em;
+}
+
+.mobile-logo {
+  background-color: #336699;
+  width: 100%;
+  margin-top: 54px;
+  height: 200px;
+  padding-top: 10px;
+}
+
+.mobile-logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.content h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.section-header h3 {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 5px;
+  text-shadow: 1.5px 1.5px 4px #888888;
+}
+
+.footer {
+  background-color: #336699;
+  height: 100px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p {
+  color: #ffffff;
+  font-size: .9em;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.footer img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.paypal {
+  margin-bottom: 30px;
 }
