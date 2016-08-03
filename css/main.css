@@ -93,7 +93,6 @@ nav li a {
 
 .footer {
   background-color: #336699;
-  height: 125px;
   padding: 15px;
   width: 100%;
   text-align: center;
@@ -103,15 +102,14 @@ nav li a {
   color: #ffffff;
   font-size: .9em;
   font-style: italic;
-  font-weight: normal;
 }
 
 .footer img {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 10px;
+    height: 60px;
 }
 
 .paypal {
