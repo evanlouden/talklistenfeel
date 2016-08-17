@@ -377,7 +377,7 @@ body {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1115,7 +1115,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Rokkitt", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -1165,12 +1165,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #2199e8;
+  color: #003366;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1585cf; }
+    color: #FF9900; }
   a img {
     border: 0; }
 
@@ -3076,7 +3076,7 @@ table.hover tr:nth-of-type(even):hover {
   .top-bar::after {
     clear: both; }
   .top-bar, .top-bar ul {
-    background-color: #336699; }
+    background-color: #666666; }
   .top-bar input {
     width: 200px;
     margin-right: 1rem; }
