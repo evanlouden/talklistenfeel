@@ -12,6 +12,19 @@
   margin: auto;
 }
 
+#medium-row a img {
+  display: block;
+  margin: auto;
+}
+
+.medium-spacer {
+  height: 204px;
+}
+
+.medium-menu ul li { display: inline-block; text-align: center; }
+
+.medium-menu ul { text-align: center; }
+
 .menu-links {
   color: #FFFFFF;
 }
@@ -39,10 +52,6 @@ a.menu-links:hover {
   min-width: 200px;
 }
 
-#medium-row a img {
-  display: block;
-  margin: auto;
-}
 
 #hamburger {
   font-size: 1.6em;
