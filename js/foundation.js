@@ -2453,7 +2453,6 @@ Foundation.Motion = Motion;
    */
   AccordionMenu.prototype.down = function($target) {
     var _this = this;
-    console.log($target);
     if(!this.options.multiOpen){
       this.up(this.$element.find('.is-active').not($target.parentsUntil(this.$element)));
     }
@@ -3022,7 +3021,6 @@ Foundation.Motion = Motion;
     if(this.options.hover){
       this.$anchor.off('mouseenter.zf.dropdown mouseleave.zf.dropdown')
           .on('mouseenter.zf.dropdown', function(){
-            console.log('hover');
             clearTimeout(_this.timeout);
             _this.timeOut = setTimeout(function(){
               _this.open();
@@ -7415,7 +7413,6 @@ Foundation.plugin(ResponsiveToggle, 'ResponsiveToggle');
     this.$element
       .on('focus.zf.tooltip', function(e){
         isFocus = true;
-        console.log(_this.isClick);
         if(_this.isClick){
           return false;
         }else{
