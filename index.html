@@ -103,12 +103,14 @@
     <div class="row">
       <section class="content">
         <div class="quotes-container">
-          <p class="quotes">Do you keep repeating unhealthy patterns even though you know better?</p>
-          <p class="quotes">Is the communication in your marriage difficult - or non-existent?</p>
-          <p class="quotes">Are you unmotivated at work or home?</p>
-          <p class="quotes">Is your job making you sick?</p>
-          <p class="quotes">Are you escaping into your phone or tablet instead of doing fun things?</p>
-          <p class="quotes">Is it feeling impossible to meet someone or one bad relationship after another?</p>
+          <div class="quote-wrapper">
+            <p class="quotes">Do you keep repeating unhealthy patterns even though you know better?</p>
+            <p class="quotes">Is the communication in your marriage difficult - or non-existent?</p>
+            <p class="quotes">Are you unmotivated at work or home?</p>
+            <p class="quotes">Is your job making you sick?</p>
+            <p class="quotes">Are you escaping into your phone or tablet instead of doing fun things?</p>
+            <p class="quotes">Is it feeling impossible to meet someone or one bad relationship after another?</p>
+          </div>
           <h4>Classic psychotherapy for modern life with Rachel might be the answer.</h4>
         </div>
         <div class="section-header">
@@ -161,7 +163,7 @@
           <a id="fees"></a>
           <h3>Services and Fees:</h3>
         </div>
-        <p><span style="color: red">Therapy is investing in yourself.</span> Many people don't feel they have the resources to spend on personal growth. And yet, the cost of suffering individually, or as a couple, is a real expense. Missed time at work, poor job performance,
+        <p>Therapy is investing in yourself. Many people don't feel they have the resources to spend on personal growth. And yet, the cost of suffering individually, or as a couple, is a real expense. Missed time at work, poor job performance,
           inattention to financial details or personal spending, using drugs and alcohol, overeating, shopping to fill the void and many other costly behaviors are symptoms of stress, depression or anxiety. These behaviors over the long-term are often more
           expensive than the short-term investment of therapy. The average cost of divorce in the United States is roughly $15,000. Therapy is a bargain compared to divorce. Individual or couples therapy is an investment that can provide relief that actually
           improves your financial life — along with the rest of it. </p>
@@ -260,9 +262,9 @@
       function showNextQuote() {
         ++quoteIndex;
         quotes.eq(quoteIndex % quotes.length)
-          .fadeIn(2000)
-          .delay(2000)
-          .fadeOut(2000, showNextQuote);
+          .fadeIn(1000)
+          .delay(3000)
+          .fadeOut(1000, showNextQuote);
       }
       showNextQuote();
       })();
